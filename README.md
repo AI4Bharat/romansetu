@@ -12,8 +12,12 @@
 
 ## Models
 
-| Model | 100m | 200m | 300m | 400m | 500m |
-| CPT - N | | | | | |
+| Model   | 100m         | 200m         | 300m         | 400m         | 500m         |
+|---------|--------------|--------------|--------------|--------------|--------------|
+| CPT - N | [download]() | [download]() | [download]() | [download]() | [download]() |
+| CPT - R | [download]() | [download]() | [download]() | [download]() | [download]() |
+
+
 ## Datasets
 
 ## Scripts
