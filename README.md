@@ -30,6 +30,11 @@ This repository contains all the resources necessary for replicating the experim
 ## Data
 
 ### Training
-
+#### Continual Pre-training data
+#### Instruction fine-tuning data
 ### Evaluation
+### Machine Translation
+### Natural Language Generation (NLG) Tasks 
+### Natural Language Understanding (NLU) Tasks
+### Reasoning tasks
 ## Scripts
