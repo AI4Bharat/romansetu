@@ -27,7 +27,7 @@ This repository contains all the resources necessary for replicating the experim
 | BaseLLM         | [download]() | [download]() |
 | CPT - Native    | [download]() |      -       |
 | CPT - Romanized |      -       | [download]() |
-## Datas
+## Data
 
 ### Training
 
