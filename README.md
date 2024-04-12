@@ -12,12 +12,18 @@
 
 ## Models
 
-| Model   | 100m         | 200m         | 300m         | 400m         | 500m         |
-|---------|--------------|--------------|--------------|--------------|--------------|
-| CPT - N | [download]() | [download]() | [download]() | [download]() | [download]() |
-| CPT - R | [download]() | [download]() | [download]() | [download]() | [download]() |
+### Continualy Pre - trained (CPT) models
+| Model           | 100m         | 200m         | 300m         | 400m         | 500m         |
+|-----------------|--------------|--------------|--------------|--------------|--------------|
+| CPT - Native    | [download]() | [download]() | [download]() | [download]() | [download]() |
+| CPT - Romanized | [download]() | [download]() | [download]() | [download]() | [download]() |
 
-
+### Instruction fine-tuned models
+| Model   | Native       | Romanized    |
+|---------|--------------|--------------|
+| BaseLLM | [download]() | [download]() |
+| CPT - N | [download]() |       -      |
+| CPT - R |       -      | [download]() |
 ## Datasets
 
 ## Scripts
