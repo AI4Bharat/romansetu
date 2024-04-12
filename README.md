@@ -22,8 +22,8 @@
 | Model   | Native       | Romanized    |
 |---------|--------------|--------------|
 | BaseLLM | [download]() | [download]() |
-| CPT - N | [download]() |       -      |
-| CPT - R |       -      | [download]() |
+| CPT - N | [download]() |      -       |
+| CPT - R |      -       | [download]() |
 ## Datasets
 
 ## Scripts
