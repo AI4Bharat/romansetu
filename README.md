@@ -1,5 +1,5 @@
 # RomanSetu
-Romanset addresses the challenge of extending Large Language Models (LLMs) to non-English languages using non-Latin scripts. We propose an approach that harnesses the power of romanized text as an interface for LLMs, leveraging its frequent informal use and shared tokens with English to enhance cross-lingual alignment.
+Romansetu addresses the challenge of extending Large Language Models (LLMs) to non-English languages using non-Latin scripts. We propose an approach that harnesses the power of romanized text as an interface for LLMs, leveraging its frequent informal use and shared tokens with English to enhance cross-lingual alignment.
 ## contents
 - [Abstract](#Abstract)
 - [Instructions](#Instructions)
