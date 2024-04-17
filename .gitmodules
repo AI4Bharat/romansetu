@@ -1,0 +1,3 @@
+[submodule "IndicInstruct"]
+	path = IndicInstruct
+	url = git@github.com:AI4Bharat/IndicInstruct.git
