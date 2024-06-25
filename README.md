@@ -18,7 +18,7 @@ This repository contains all the resources necessary for replicating the experim
 ### Continualy Pre - trained (CPT) models
 | Model           | 100m         | 200m         | 300m         | 400m         | 500m         |
 |-----------------|--------------|--------------|--------------|--------------|--------------|
-| CPT - Native    | [download]() | [download]() | [download]() | [download]() | [download]() |
+| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-100m.zip) | [download]() | [download]() | [download]() | [download]() |
 | CPT - Romanized | [download]() | [download]() | [download]() | [download]() | [download]() |
 
 ### Instruction fine-tuned models
