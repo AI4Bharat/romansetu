@@ -18,8 +18,8 @@ This repository contains all the resources necessary for replicating the experim
 ### Continualy Pre - trained (CPT) models
 | Model           | 100m         | 200m         | 300m         | 400m         | 500m         |
 |-----------------|--------------|--------------|--------------|--------------|--------------|
-| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-100m.zip) | [download]() | [download]() | [download]() | [download]() |
-| CPT - Romanized | [download]() | [download]() | [download]() | [download]() | [download]() |
+| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-100m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-200m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-300m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-400m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-500m.zip) |
+| CPT - Romanized | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-100m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-200m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-300m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-400m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-500m.zip) |
 
 ### Instruction fine-tuned models
 | Model           | Native       | Romanized    |
