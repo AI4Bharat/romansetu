@@ -1,6 +1,6 @@
 # RomanSetu
 Romansetu addresses the challenge of extending Large Language Models (LLMs) to non-English languages using non-Latin scripts. We propose an approach that harnesses the power of romanized text as an interface for LLMs, leveraging its frequent informal use and shared tokens with English to enhance cross-lingual alignment.
-## contents
+## Contents
 - [Abstract](#Abstract)
 - [Instructions](#Instructions)
 - [Models](#Models)
@@ -34,7 +34,7 @@ This repository contains all the resources necessary for replicating the experim
 For continual pretraining, we sourced approximately 500 million words of document-level data from web-crawled corpora for each language under consideration along with English. To generate the romanized dataset, we transliterated the native script dataset using the IndicXlit model, a state-of-the-art open-source transliteration model for Indian languages. Both the native script dataset and its romanized counterpart were then used for continual pretraining in various configurations explained later.
 
 #### Instruction fine-tuning data
-These languages have very little native instruction tuning data for diverse tasks. Following \citet{wei2023polylm}, we rely on translating high-quality English-supervised instruction-tuning datasets into the languages under consideration. We use IndicTrans2 \citep{ai4bharat2023indictrans2}, the state-of-the-art open-source MT model for Indian languages compared to commercial offerings for translation. We sampled examples from various English instruction tuning datasets to ensure a diverse mix of tasks from the Flan collection (65k) and Dolly (15k) and 20k high-quality manually translated examples in each direction from the BPCC-Human subset. Thus, the final IFT dataset has 120k examples per language. The instruction tuning datasets are further romanized using IndicXlit.
+These languages have very little native instruction tuning data for diverse tasks. We rely on translating high-quality English-supervised instruction-tuning datasets into the languages under consideration. We use IndicTrans2, the state-of-the-art open-source MT model for Indian languages compared to commercial offerings for translation. We sampled examples from various English instruction tuning datasets to ensure a diverse mix of tasks from the Flan collection (65k) and Dolly (15k) and 20k high-quality manually translated examples in each direction from the BPCC-Human subset. Thus, the final IFT dataset has 120k examples per language. The instruction tuning datasets are further romanized using IndicXlit.
 
 ### Evaluation
 For evaluation, we use the following benchmarks, including their romanized variants for comparison.
