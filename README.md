@@ -24,9 +24,9 @@ This repository contains all the resources necessary for replicating the experim
 ### Instruction fine-tuned models
 | Model           | Native       | Romanized    |
 |-----------------|--------------|--------------|
-| BaseLLM         | [download]() | [download]() |
-| CPT - Native    | [download]() |      -       |
-| CPT - Romanized |      -       | [download]() |
+| BaseLLM         | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-base-native.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-base-romanized.zip) |
+| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-cptnative-native.zip) |      -       |
+| CPT - Romanized |      -       | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-cptromanized-romanized.zip) |
 ## Data
 
 ### Training
