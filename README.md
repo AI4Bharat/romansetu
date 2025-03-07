@@ -14,19 +14,29 @@ This repository contains all the resources necessary for replicating the experim
 ## Instructions
 
 ## Models
+All our models are hosted on Hugging Face and can be easily loaded using the 🤗 Transformers library.
+```py
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
-### Continualy Pre - trained (CPT) models
+model_path = "model/path/here" # Eg. "ai4bharat/romansetu-cpt-roman-200m"
+
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModelForCausalLM.from_pretrained(model_path)
+```
+
+
+### Continual Pre-Trained (CPT) models
 | Model           | 100m         | 200m         | 300m         | 400m         | 500m         |
 |-----------------|--------------|--------------|--------------|--------------|--------------|
-| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-100m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-200m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-300m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-400m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-native-500m.zip) |
-| CPT - Romanized | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-100m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-200m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-300m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-400m.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/cpt-rom-500m.zip) |
+| CPT - Native    | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-100m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-200m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-300m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-400m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-500m) |
+| CPT - Romanized | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-100m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-200m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-300m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-400m) | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-500m) |
 
-### Instruction fine-tuned models
+### Instruction Fine-Tuned models
 | Model           | Native       | Romanized    |
 |-----------------|--------------|--------------|
-| BaseLLM         | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-base-native.zip) | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-base-romanized.zip) |
-| CPT - Native    | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-cptnative-native.zip) |      -       |
-| CPT - Romanized |      -       | [download](https://objectstore.e2enetworks.net/indic-gpt/romansetu/sft-cptromanized-romanized.zip) |
+| BaseLLM         | [link](https://huggingface.co/ai4bharat/romansetu-base-sft-native) | [link](https://huggingface.co/ai4bharat/romansetu-base-sft-roman) |
+| CPT - Native    | [link](https://huggingface.co/ai4bharat/romansetu-cpt-native-sft-native) |      -       |
+| CPT - Romanized |      -       | [link](https://huggingface.co/ai4bharat/romansetu-cpt-roman-sft-roman) |
 ## Data
 
 ### Training
